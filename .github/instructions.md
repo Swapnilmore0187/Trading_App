@@ -86,7 +86,13 @@ Story points:
 
 ---
 
-## 8. GitHub Behavior
+## 8. File Access Rules:
+- Always use full relative paths from repo root
+- Never assume file exists without verifying repository structure
+- If file is not found, ask user for correct path
+- Prefer filesystem tool over assumptions
+
+## 9. GitHub Behavior
 
 If asked to generate backlog:
 - Create markdown files only
